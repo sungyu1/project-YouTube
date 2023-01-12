@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Youtube Mobile</title>
   <script src="https://kit.fontawesome.com/b163195086.js" crossorigin="anonymous"></script>
+  <script src="./js/main.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css"/>
 </head>
@@ -26,8 +27,8 @@
     <section class="player">
       <video controls src="video/portfoilo.mp4"></video>
     </section>
-
-    <!-- Vido Info  -->
+    <div class="infoAndupNet">
+       <!-- Vido Info  -->
     <section class="info">
       <!-- Metadata -->
       <div class="matadata">
@@ -37,10 +38,11 @@
           <li>#감성음악</li>
         </ul>
         <div class="titleAndButton">
-          <span class="title">
-            Portfoilo 1:HTML, CSS, Javascript 이용해서 유튜브 웹사이트 만들기 
+          <span class="title clamp">
+            Portfoilo 1:HTML, CSS, Javascript 이용해서 유튜브 웹사이트 만들기
+            Portfoilo 1:HTML, CSS, Javascript 이용해서 유튜브 웹사이트 만들기
           </span>
-          <button class="moreBtn">
+          <button class="moreBtn clicked">
             <i class="fa-solid fa-caret-down"></i>
           </button>
 
@@ -66,11 +68,12 @@
         <button class="subscribe">구독</button>
       </div>
     </section>
+    <!-- upNext -->
     <section class="upNext">
       <span class="title">Up next</span>
       <ul>
         <li class="item">
-          <img src="image/썸네일1.png" alt=""/>
+          <div class="img"><img src="image/썸네일1.png" alt=""/></div>
           <div class="info">
             <span class="title">프론트엔드 개발자가 되고싶다!!(HTML, CSS, Javascript+실전프로젝트)</span>
             <span class="name">sun coding</span>
@@ -81,7 +84,7 @@
           </button>
         </li>
         <li class="item">
-          <img src="image/썸네일2.png" alt=""/>
+          <div class="img"><img src="image/썸네일2.png" alt=""/></div>
           <div class="info">
             <span class="title">백엔드 개발자가 되고싶다!!(Java, Python, Javascript+실전프로젝트)</span>
             <span class="name">sun coding</span>
@@ -93,5 +96,7 @@
         </li>
       </ul>
     </section>
+    </div>
+   
 </body>
 </html>
